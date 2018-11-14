@@ -1,0 +1,96 @@
+*{
+/*   border: solid 1px; */
+  font-family: 微軟正黑體;
+  position: relative;
+}
+html, body{
+  width: 100%; height: 100%;
+  padding: 0px; margin: 0px;
+}
+body{
+  background-color: #e0ffff;
+  border-top: solid 30px #dda0dd;
+  border-bottom: solid 30px #dda0dd;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.namecard{
+  width: 350px; height: 200px;
+  padding: 20px;
+  margin-left: 500px; 
+  margin-right: auto;
+  margin-top: 200px;
+  background-color: #fff8dc;
+  color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 5px; 
+  box-shadow: 0px 25px 15px -10px rgba(0, 0, 0, 0.15);
+}
+.namecard h2{
+  font-size: 25px;
+}
+.namecard h2 span{
+  font-size: 18px;
+  font-weight: 500;
+}
+.namecard h5{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 20px;
+  letter-spacing: 3px;
+}
+.namecard p{
+  font-size: 12px;
+  letter-spacing: 6px;
+  line-height: 23px;
+} 
+.circle {
+  width: 100px; height: 100px;
+  border-radius: 100%;
+  position: absolute;
+/* right: 100px; */
+}
+.circle1 {
+  right: 100px;
+  background-color: #afeeee;
+}
+.circle2 {
+  right: -30px;
+  top: -30px;
+  width: 50px; height: 60px;
+  border: solid 6px #b22222;
+}
+.circle3 {
+  right: 30px;
+  top: 30px;
+  width: 60px; height: 60px;
+  background-color: #da70d6;
+}
+.page_title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  right:-150px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.circle4 {
+  left: 30px;
+  top: 430px;
+  width: 60px; height: 60px;
+  background-color: #da70d6;
+}
+.circle5 {
+  left: 200px;
+  top: 100px;
+  width: 60px; height: 60px;
+  background-color: #da70d6;
+}
+.mark{
+  font-size: 400px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.05); 
+}
